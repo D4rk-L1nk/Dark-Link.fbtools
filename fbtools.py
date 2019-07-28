@@ -541,7 +541,7 @@ def menu_reaction_ask():
 			menu_reaction_ask()
 		else:
 			print "[!] command '" + cek + "' not found"
-			print "[!] type 'menu' to show menu bot"
+			print "[!] cek and enter numb options"
 			menu_reaction_ask()
   except KeyboardInterrupt:
 	menu_reaction_ask()
@@ -715,7 +715,7 @@ def bot():
 			bot()
 		else:
 			print "[!] command '"+cek+"' not found"
-			print '[!] type "menu" to show menu bot'
+			print "[!] cek and enter numb options"
 			bot()
   except KeyboardInterrupt:
 	bot()
